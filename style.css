@@ -1,0 +1,43 @@
+body{
+    font-family: sans-serif;
+    background-color: black;
+}
+
+main{
+    margin: 0 auto;
+    margin-top: 5px;
+    text-align: center;
+    background-color: grey;
+    width: 350px;
+    height: 600px;
+    border-radius: 10px;
+    color: white;
+}
+
+img{
+    width: 180px;
+    border-radius: 100%;
+}
+.green {
+    color: greenyellow;
+    font-size: 16px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+ .links  a{
+        background-color: black;
+        line-height: 2;
+        padding: 5px;
+        text-decoration: none;
+        color: white;
+        border-radius: 5px;
+        margin: 2px;
+ }
+
+ .links a:hover {
+    background-color: greenyellow;
+ }
+
